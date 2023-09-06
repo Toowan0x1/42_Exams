@@ -23,7 +23,7 @@ void    ft_putnbr(long dig, int len, char *sign)
     g_var++;
 }
 
-void    ft_puthex(unsigned dig, int len, char *sign)
+void    ft_puthex(unsigned dig, unsigned len, char *sign)
 {
     if (dig >= len)
         ft_puthex(dig / len, len, sign);
